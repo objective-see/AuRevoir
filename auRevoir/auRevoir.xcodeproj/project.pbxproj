@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6CACA020A4FEC000188B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6CAC9F20A4FEC000188B0A /* AppDelegate.m */; };
+		CD6CACA220A4FEC000188B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACA120A4FEC000188B0A /* Assets.xcassets */; };
+		CD6CACA520A4FEC000188B0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACA320A4FEC000188B0A /* MainMenu.xib */; };
+		CD6CACA820A4FEC000188B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6CACA720A4FEC000188B0A /* main.m */; };
+		CD6CACB020A5007D00188B0A /* aurevoir.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACAF20A5007D00188B0A /* aurevoir.png */; };
+		CD6CACB220A500F600188B0A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACB120A500F600188B0A /* trash.png */; };
+		CD6CACB720A50DB800188B0A /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACB620A50DB800188B0A /* view.png */; };
+		CD6CACBB20A510F700188B0A /* MsgsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6CACB820A510F700188B0A /* MsgsWindowController.m */; };
+		CD6CACBC20A510F700188B0A /* MsgsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACB920A510F700188B0A /* MsgsWindow.xib */; };
+		CD6CACBF20A513AF00188B0A /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6CACBE20A513AF00188B0A /* Database.m */; };
+		CD6CACC120A5351900188B0A /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACC020A5351900188B0A /* save.png */; };
+		CDA46CC620A5573F00DE8D15 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA46CC520A5573E00DE8D15 /* message.png */; };
+		CDA46CCE20A55C7300DE8D15 /* SupportWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA46CCC20A55C7300DE8D15 /* SupportWindowController.m */; };
+		CDA46CCF20A55C7300DE8D15 /* Support.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA46CCD20A55C7300DE8D15 /* Support.xib */; };
+		CDA46CD120A55CE300DE8D15 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA46CD020A55CE300DE8D15 /* smile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD6CAC9B20A4FEC000188B0A /* auRevoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auRevoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6CAC9E20A4FEC000188B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6CAC9F20A4FEC000188B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6CACA120A4FEC000188B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6CACA420A4FEC000188B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD6CACA620A4FEC000188B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6CACA720A4FEC000188B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6CACAF20A5007D00188B0A /* aurevoir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aurevoir.png; sourceTree = "<group>"; };
+		CD6CACB120A500F600188B0A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		CD6CACB620A50DB800188B0A /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		CD6CACB820A510F700188B0A /* MsgsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgsWindowController.m; sourceTree = "<group>"; };
+		CD6CACB920A510F700188B0A /* MsgsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgsWindow.xib; sourceTree = "<group>"; };
+		CD6CACBA20A510F700188B0A /* MsgsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgsWindowController.h; sourceTree = "<group>"; };
+		CD6CACBD20A513AF00188B0A /* Database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		CD6CACBE20A513AF00188B0A /* Database.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		CD6CACC020A5351900188B0A /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		CDA46CC520A5573E00DE8D15 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		CDA46CCB20A55C7300DE8D15 /* SupportWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupportWindowController.h; sourceTree = "<group>"; };
+		CDA46CCC20A55C7300DE8D15 /* SupportWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupportWindowController.m; sourceTree = "<group>"; };
+		CDA46CCD20A55C7300DE8D15 /* Support.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Support.xib; sourceTree = "<group>"; };
+		CDA46CD020A55CE300DE8D15 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6CAC9820A4FEC000188B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6CAC9220A4FEC000188B0A = {
+			isa = PBXGroup;
+			children = (
+				CD6CAC9D20A4FEC000188B0A /* auRevoir */,
+				CD6CAC9C20A4FEC000188B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6CAC9C20A4FEC000188B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6CAC9B20A4FEC000188B0A /* auRevoir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6CAC9D20A4FEC000188B0A /* auRevoir */ = {
+			isa = PBXGroup;
+			children = (
+				CDA46CCB20A55C7300DE8D15 /* SupportWindowController.h */,
+				CDA46CCC20A55C7300DE8D15 /* SupportWindowController.m */,
+				CDA46CCD20A55C7300DE8D15 /* Support.xib */,
+				CD6CACBD20A513AF00188B0A /* Database.h */,
+				CD6CACBE20A513AF00188B0A /* Database.m */,
+				CD6CACB920A510F700188B0A /* MsgsWindow.xib */,
+				CD6CACBA20A510F700188B0A /* MsgsWindowController.h */,
+				CD6CACB820A510F700188B0A /* MsgsWindowController.m */,
+				CD6CAC9E20A4FEC000188B0A /* AppDelegate.h */,
+				CD6CAC9F20A4FEC000188B0A /* AppDelegate.m */,
+				CD6CACA120A4FEC000188B0A /* Assets.xcassets */,
+				CD6CACA320A4FEC000188B0A /* MainMenu.xib */,
+				CD6CACA620A4FEC000188B0A /* Info.plist */,
+				CD6CACA720A4FEC000188B0A /* main.m */,
+				CDA46CCA20A55C4B00DE8D15 /* images */,
+			);
+			path = auRevoir;
+			sourceTree = "<group>";
+		};
+		CDA46CCA20A55C4B00DE8D15 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CDA46CD020A55CE300DE8D15 /* smile.png */,
+				CDA46CC520A5573E00DE8D15 /* message.png */,
+				CD6CACC020A5351900188B0A /* save.png */,
+				CD6CACB120A500F600188B0A /* trash.png */,
+				CD6CACAF20A5007D00188B0A /* aurevoir.png */,
+				CD6CACB620A50DB800188B0A /* view.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6CAC9A20A4FEC000188B0A /* auRevoir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6CACAC20A4FEC000188B0A /* Build configuration list for PBXNativeTarget "auRevoir" */;
+			buildPhases = (
+				CD6CAC9720A4FEC000188B0A /* Sources */,
+				CD6CAC9820A4FEC000188B0A /* Frameworks */,
+				CD6CAC9920A4FEC000188B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = auRevoir;
+			productName = auRevoir;
+			productReference = CD6CAC9B20A4FEC000188B0A /* auRevoir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6CAC9320A4FEC000188B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Objective-See";
+				TargetAttributes = {
+					CD6CAC9A20A4FEC000188B0A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD6CAC9620A4FEC000188B0A /* Build configuration list for PBXProject "auRevoir" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6CAC9220A4FEC000188B0A;
+			productRefGroup = CD6CAC9C20A4FEC000188B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6CAC9A20A4FEC000188B0A /* auRevoir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6CAC9920A4FEC000188B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6CACA220A4FEC000188B0A /* Assets.xcassets in Resources */,
+				CD6CACB720A50DB800188B0A /* view.png in Resources */,
+				CDA46CD120A55CE300DE8D15 /* smile.png in Resources */,
+				CD6CACB020A5007D00188B0A /* aurevoir.png in Resources */,
+				CDA46CCF20A55C7300DE8D15 /* Support.xib in Resources */,
+				CDA46CC620A5573F00DE8D15 /* message.png in Resources */,
+				CD6CACBC20A510F700188B0A /* MsgsWindow.xib in Resources */,
+				CD6CACB220A500F600188B0A /* trash.png in Resources */,
+				CD6CACC120A5351900188B0A /* save.png in Resources */,
+				CD6CACA520A4FEC000188B0A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6CAC9720A4FEC000188B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6CACA820A4FEC000188B0A /* main.m in Sources */,
+				CD6CACA020A4FEC000188B0A /* AppDelegate.m in Sources */,
+				CD6CACBF20A513AF00188B0A /* Database.m in Sources */,
+				CDA46CCE20A55C7300DE8D15 /* SupportWindowController.m in Sources */,
+				CD6CACBB20A510F700188B0A /* MsgsWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6CACA320A4FEC000188B0A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6CACA420A4FEC000188B0A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6CACAA20A4FEC000188B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD6CACAB20A4FEC000188B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD6CACAD20A4FEC000188B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VBG97UB4TA;
+				INFOPLIST_FILE = auRevoir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.auRevoir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD6CACAE20A4FEC000188B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VBG97UB4TA;
+				INFOPLIST_FILE = auRevoir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.auRevoir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6CAC9620A4FEC000188B0A /* Build configuration list for PBXProject "auRevoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6CACAA20A4FEC000188B0A /* Debug */,
+				CD6CACAB20A4FEC000188B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6CACAC20A4FEC000188B0A /* Build configuration list for PBXNativeTarget "auRevoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6CACAD20A4FEC000188B0A /* Debug */,
+				CD6CACAE20A4FEC000188B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6CAC9320A4FEC000188B0A /* Project object */;
+}
