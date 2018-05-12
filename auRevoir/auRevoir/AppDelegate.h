@@ -7,6 +7,7 @@
 //
 
 @import Cocoa;
+#import <libproc.h>
 
 #import "MsgsWindowController.h"
 #import "SupportWindowController.h"
@@ -29,6 +30,12 @@
 
 //support window controller
 @property (nonatomic, retain)SupportWindowController *supportWindowController;
+
+/* METHODS */
+
+//given a process path and user
+// return array of all matching pids
+-(NSMutableArray*) getProcessIDs:(NSString*)processPath user:(int)user;
 
 @end
 
