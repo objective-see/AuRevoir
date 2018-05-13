@@ -284,27 +284,6 @@ bail:
         }
     }
     
-    /*
-     
-    //dbg msg
-    NSLog(@"stopping 'usernoted'");
-    
-    //stop user notification daemon
-    system("launchctl unload /System/Library/LaunchAgents/com.apple.usernoted.plist");
-     
-    */
-    
-    
-    /*
-     
-    //dbg msg
-    NSLog(@"(re)starting 'usernoted'");
-    
-    //re(start) user notification daemon
-    system("launchctl unload /System/Library/LaunchAgents/com.apple.usernoted.plist");
-     
-    */
-
 bail:
     
     return removedMessages;

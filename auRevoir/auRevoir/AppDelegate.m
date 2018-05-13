@@ -79,6 +79,12 @@
     //set box corners corners
     self.box.layer.cornerRadius = 10.0;
     
+    //make it key window
+    [self.window makeKeyAndOrderFront:self];
+    
+    //make window front
+    [NSApp activateIgnoringOtherApps:YES];
+    
     return;
 }
 
@@ -231,7 +237,7 @@ bail:
     //err msg
     NSString* errMsg = nil;
     
-    //init
+    //init 
     database = [[Database alloc] init];
     
     //get pid of user notification daemon
