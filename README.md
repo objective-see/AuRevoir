@@ -12,7 +12,7 @@ The application targets Signal notifications -but, click 'all apps' to either vi
 
 ![](https://objective-see.com/images/blog/blog_0x2E/auRevoir.png)
 
-Download: "[AuRevoir.app](http://objective-see.com/downloads/products/AuRevoir_1.0.0.zip)"
+Download: "[AuRevoir.app](https://github.com/objective-see/AuRevoir/releases/download/1.0.0/AuRevoir_1.0.0.zip)"
 
 Note: the 'Remove' functionality will modify the system `Notification Database` (`$TMPDIR/../0/com.apple.notificationcenter/db2/db*`)
 
