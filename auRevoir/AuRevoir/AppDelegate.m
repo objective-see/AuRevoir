@@ -199,7 +199,7 @@ bail:
 -(NSUInteger)showAlert
 {
     //alert
-    NSAlert* alert =  nil;
+    NSAlert* alert = nil;
     
     //response
     NSUInteger response = 0;
