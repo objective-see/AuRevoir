@@ -129,7 +129,13 @@
         // bail if user user cancels
         if(NSAlertFirstButtonReturn != [self showAlert])
         {
-            //skip
+            //(re)enable button
+            self.viewMsgs.enabled = YES;
+            
+            //(re)enable button
+            self.removeMsgs.enabled = YES;
+            
+            //bail
             goto bail;
         }
         
