@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD6CAC9B20A4FEC000188B0A /* auRevoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auRevoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6CAC9B20A4FEC000188B0A /* AuRevoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuRevoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6CAC9E20A4FEC000188B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD6CAC9F20A4FEC000188B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD6CACA120A4FEC000188B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		CD6CAC9220A4FEC000188B0A = {
 			isa = PBXGroup;
 			children = (
-				CD6CAC9D20A4FEC000188B0A /* auRevoir */,
+				CD6CAC9D20A4FEC000188B0A /* AuRevoir */,
 				CD6CAC9C20A4FEC000188B0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		CD6CAC9C20A4FEC000188B0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD6CAC9B20A4FEC000188B0A /* auRevoir.app */,
+				CD6CAC9B20A4FEC000188B0A /* AuRevoir.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD6CAC9D20A4FEC000188B0A /* auRevoir */ = {
+		CD6CAC9D20A4FEC000188B0A /* AuRevoir */ = {
 			isa = PBXGroup;
 			children = (
 				CDA46CCB20A55C7300DE8D15 /* SupportWindowController.h */,
@@ -94,7 +94,7 @@
 				CD6CACA720A4FEC000188B0A /* main.m */,
 				CDA46CCA20A55C4B00DE8D15 /* images */,
 			);
-			path = auRevoir;
+			path = AuRevoir;
 			sourceTree = "<group>";
 		};
 		CDA46CCA20A55C4B00DE8D15 /* images */ = {
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD6CAC9A20A4FEC000188B0A /* auRevoir */ = {
+		CD6CAC9A20A4FEC000188B0A /* AuRevoir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD6CACAC20A4FEC000188B0A /* Build configuration list for PBXNativeTarget "auRevoir" */;
+			buildConfigurationList = CD6CACAC20A4FEC000188B0A /* Build configuration list for PBXNativeTarget "AuRevoir" */;
 			buildPhases = (
 				CD6CAC9720A4FEC000188B0A /* Sources */,
 				CD6CAC9820A4FEC000188B0A /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = auRevoir;
+			name = AuRevoir;
 			productName = auRevoir;
-			productReference = CD6CAC9B20A4FEC000188B0A /* auRevoir.app */;
+			productReference = CD6CAC9B20A4FEC000188B0A /* AuRevoir.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD6CAC9620A4FEC000188B0A /* Build configuration list for PBXProject "auRevoir" */;
+			buildConfigurationList = CD6CAC9620A4FEC000188B0A /* Build configuration list for PBXProject "AuRevoir" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD6CAC9A20A4FEC000188B0A /* auRevoir */,
+				CD6CAC9A20A4FEC000188B0A /* AuRevoir */,
 			);
 		};
 /* End PBXProject section */
@@ -321,7 +321,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VBG97UB4TA;
-				INFOPLIST_FILE = auRevoir/Info.plist;
+				INFOPLIST_FILE = AuRevoir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.auRevoir";
@@ -338,7 +338,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VBG97UB4TA;
-				INFOPLIST_FILE = auRevoir/Info.plist;
+				INFOPLIST_FILE = AuRevoir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.auRevoir";
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD6CAC9620A4FEC000188B0A /* Build configuration list for PBXProject "auRevoir" */ = {
+		CD6CAC9620A4FEC000188B0A /* Build configuration list for PBXProject "AuRevoir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD6CACAA20A4FEC000188B0A /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD6CACAC20A4FEC000188B0A /* Build configuration list for PBXNativeTarget "auRevoir" */ = {
+		CD6CACAC20A4FEC000188B0A /* Build configuration list for PBXNativeTarget "AuRevoir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD6CACAD20A4FEC000188B0A /* Debug */,
