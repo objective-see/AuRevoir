@@ -717,7 +717,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" id="fcU-fM-vdc">
                                         <font key="font" size="13" name="Menlo-Regular"/>
-                                        <string key="title">Signal's messages (including 'disappearing' ones) may be stored unencrypted in your Mac's 'Notifciation Database' 😥  This application can display, and also fully removes such messages!</string>
+                                        <string key="title">Signal's messages (including 'disappearing' ones) may be stored unencrypted in your Mac's 'Notification Database' 😥  This application can display, and also fully removes such messages!</string>
                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
