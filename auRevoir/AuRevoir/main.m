@@ -23,7 +23,7 @@ int main(int argc, const char * argv[])
     osVersion = [[NSProcessInfo processInfo] operatingSystemVersion];
     
     //only support h sierra
-    if(osVersion.minorVersion != 13)
+    if(osVersion.minorVersion != 13 && osVersion.minorVersion != 14)
     {
         //init alert
         alert = [[NSAlert alloc] init];
