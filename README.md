@@ -1,5 +1,10 @@
-# AuRevoir
+# AuRevoir 
+
 View and remove notification messages from Apple's "Notification Database"
+
+![](https://img.shields.io/badge/macOS-11.1-blue)
+
+> Updated to run on macOS 11.1 (Big Sur)
 
 Background: 
 <br>

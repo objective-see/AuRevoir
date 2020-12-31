@@ -22,8 +22,8 @@ int main(int argc, const char * argv[])
     //get os version
     osVersion = [[NSProcessInfo processInfo] operatingSystemVersion];
     
-    //only support h sierra
-    if(osVersion.minorVersion != 13)
+    // supports Big Sur (11.1)
+    if(osVersion.majorVersion < 11 && osVersion.minorVersion < 1)
     {
         //init alert
         alert = [[NSAlert alloc] init];
