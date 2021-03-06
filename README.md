@@ -2,9 +2,9 @@
 
 View and remove notification messages from Apple's "Notification Database"
 
-![](https://img.shields.io/badge/macOS-11.1-blue)
+![](https://img.shields.io/badge/macOS-11.2.1-blue)
 
-> Updated to run on macOS 11.1 (Big Sur)
+> Updated to run on macOS 10.13 (High Sierra) <=> 11.2.1 (Big Sur)
 
 Background: 
 <br>

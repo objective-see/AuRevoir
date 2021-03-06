@@ -23,7 +23,8 @@ int main(int argc, const char * argv[])
     osVersion = [[NSProcessInfo processInfo] operatingSystemVersion];
     
     // supports Big Sur (11.1)
-    if(osVersion.majorVersion < 11 && osVersion.minorVersion < 1)
+    if ((osVersion.majorVersion < 10 && osVersion.minorVersion < 13) ||
+        (osVersion.majorVersion > 11 && osVersion.minorVersion > 2))
     {
         //init alert
         alert = [[NSAlert alloc] init];
