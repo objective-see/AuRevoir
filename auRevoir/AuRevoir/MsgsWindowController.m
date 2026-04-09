@@ -166,8 +166,9 @@ bail:
         [formattedMessages appendString:@"SAVED MESSAGE 💬\n"];
         
         //format data?
-        data = [[message[@"req"][@"atta"] firstObject][@"data"] bytes];
-        if(NULL != data)
+        NSData* attachData = [message[@"req"][@"atta"] firstObject][@"data"];
+        data = [attachData bytes];
+        if(NULL != data && [attachData length] >= 4)
         {
             //format
             formattedData = [NSMutableString stringWithFormat:@"%c%c%c%c...", ((char*)data)[0], ((char*)data)[1], ((char*)data)[2],((char*)data)[3]];

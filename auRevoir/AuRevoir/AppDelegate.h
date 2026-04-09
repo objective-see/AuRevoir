@@ -10,7 +10,6 @@
 #import <libproc.h>
 
 #import "MsgsWindowController.h"
-#import "SupportWindowController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -28,14 +27,6 @@
 //messages popup controller
 @property (strong) MsgsWindowController *msgsWindowController;
 
-//support window controller
-@property (nonatomic, retain)SupportWindowController *supportWindowController;
-
-/* METHODS */
-
-//given a process path and user
-// return array of all matching pids
--(NSMutableArray*) getProcessIDs:(NSString*)processPath user:(int)user;
 
 @end
 

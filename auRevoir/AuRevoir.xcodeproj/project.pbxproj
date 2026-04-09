@@ -19,8 +19,6 @@
 		CD6CACBF20A513AF00188B0A /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6CACBE20A513AF00188B0A /* Database.m */; };
 		CD6CACC120A5351900188B0A /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6CACC020A5351900188B0A /* save.png */; };
 		CDA46CC620A5573F00DE8D15 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA46CC520A5573E00DE8D15 /* message.png */; };
-		CDA46CCE20A55C7300DE8D15 /* SupportWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA46CCC20A55C7300DE8D15 /* SupportWindowController.m */; };
-		CDA46CCF20A55C7300DE8D15 /* Support.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA46CCD20A55C7300DE8D15 /* Support.xib */; };
 		CDA46CD120A55CE300DE8D15 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA46CD020A55CE300DE8D15 /* smile.png */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +40,6 @@
 		CD6CACBE20A513AF00188B0A /* Database.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
 		CD6CACC020A5351900188B0A /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
 		CDA46CC520A5573E00DE8D15 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
-		CDA46CCB20A55C7300DE8D15 /* SupportWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupportWindowController.h; sourceTree = "<group>"; };
-		CDA46CCC20A55C7300DE8D15 /* SupportWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupportWindowController.m; sourceTree = "<group>"; };
-		CDA46CCD20A55C7300DE8D15 /* Support.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Support.xib; sourceTree = "<group>"; };
 		CDA46CD020A55CE300DE8D15 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,9 +73,6 @@
 		CD6CAC9D20A4FEC000188B0A /* AuRevoir */ = {
 			isa = PBXGroup;
 			children = (
-				CDA46CCB20A55C7300DE8D15 /* SupportWindowController.h */,
-				CDA46CCC20A55C7300DE8D15 /* SupportWindowController.m */,
-				CDA46CCD20A55C7300DE8D15 /* Support.xib */,
 				CD6CACBD20A513AF00188B0A /* Database.h */,
 				CD6CACBE20A513AF00188B0A /* Database.m */,
 				CD6CACB920A510F700188B0A /* MsgsWindow.xib */,
@@ -172,7 +164,6 @@
 				CD6CACB720A50DB800188B0A /* view.png in Resources */,
 				CDA46CD120A55CE300DE8D15 /* smile.png in Resources */,
 				CD6CACB020A5007D00188B0A /* aurevoir.png in Resources */,
-				CDA46CCF20A55C7300DE8D15 /* Support.xib in Resources */,
 				CDA46CC620A5573F00DE8D15 /* message.png in Resources */,
 				CD6CACBC20A510F700188B0A /* MsgsWindow.xib in Resources */,
 				CD6CACB220A500F600188B0A /* trash.png in Resources */,
@@ -191,7 +182,6 @@
 				CD6CACA820A4FEC000188B0A /* main.m in Sources */,
 				CD6CACA020A4FEC000188B0A /* AppDelegate.m in Sources */,
 				CD6CACBF20A513AF00188B0A /* Database.m in Sources */,
-				CDA46CCE20A55C7300DE8D15 /* SupportWindowController.m in Sources */,
 				CD6CACBB20A510F700188B0A /* MsgsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,16 +307,32 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_TEAM = VBG97UB4TA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				INFOPLIST_FILE = AuRevoir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.auRevoir";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 			};
 			name = Debug;
 		};
@@ -334,16 +340,32 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_TEAM = VBG97UB4TA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				INFOPLIST_FILE = AuRevoir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.auRevoir";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 			};
 			name = Release;
 		};

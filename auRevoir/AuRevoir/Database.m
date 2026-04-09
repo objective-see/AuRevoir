@@ -23,9 +23,15 @@ NSString * const TABLES[] = {@"delivered", @"displayed", @"record", @"requests",
     
     //path
     NSString* path = nil;
-    
-    //init path
-    path = [NSString stringWithFormat:@"%@/0/com.apple.notificationcenter/db2/db", [NSTemporaryDirectory() stringByDeletingLastPathComponent]];
+
+    //macOS 26+: db moved to group container (requires FDA)
+    path = [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Group Containers/group.com.apple.usernoted/db2/db"];
+
+    //fall back to legacy path (pre-macOS 26)
+    if(YES != [[NSFileManager defaultManager] fileExistsAtPath:path])
+    {
+        path = [NSString stringWithFormat:@"%@/0/com.apple.notificationcenter/db2/db", [NSTemporaryDirectory() stringByDeletingLastPathComponent]];
+    }
     
     //dbg msg
     NSLog(@"opening %@", path);
