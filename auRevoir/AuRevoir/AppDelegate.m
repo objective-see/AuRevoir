@@ -9,6 +9,7 @@
 #import "Database.h"
 #import "AppDelegate.h"
 
+#import <fcntl.h>
 #import <signal.h>
 #import <unistd.h>
 #import <libproc.h>
@@ -146,16 +147,30 @@
     return;
 }
 
+//can a (TCC-protected) file actually be opened for reading?
+// note: uses open(2), as access(2)/isReadableFileAtPath: doesn't reliably reflect TCC denials
+static BOOL canOpenForReading(NSString* path) {
+
+    int fd = open(path.fileSystemRepresentation, O_RDONLY);
+    if(fd < 0) return NO;
+
+    close(fd);
+    return YES;
+}
+
 //full disk access check
-// no API for this, so let's just see if we can read user's TCC.db
+// no API for this, so probe 'protected' files:
+// 1. the notification db itself (macOS 26+: in usernoted's group container)
+// 2. user's TCC.db (older macOS; on macOS 27 this file no longer exists at that path)
 BOOL hasFDA(void) {
-    
+
+    //notification db (what we actually need)
+    NSString* notificationDB = [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Group Containers/group.com.apple.usernoted/db2/db"];
+
     //tcc path
     NSString* tccPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Application Support/com.apple.TCC/TCC.db"];
-    
-    //FDA check
-    // is 'protected' file readable
-    return [NSFileManager.defaultManager isReadableFileAtPath:tccPath];
+
+    return canOpenForReading(notificationDB) || canOpenForReading(tccPath);
 }
 
 //button handler
